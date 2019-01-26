@@ -246,9 +246,7 @@ def long_name_steals_a_ton
       end
     end
   end
-  puts most_stealer
-  puts player_with_longest_name()
-  (most_stealer == player_with_longest_name()) ? true : false
+  most_stealer == player_with_longest_name() ? true : false
 end
 
 puts long_name_steals_a_ton()
